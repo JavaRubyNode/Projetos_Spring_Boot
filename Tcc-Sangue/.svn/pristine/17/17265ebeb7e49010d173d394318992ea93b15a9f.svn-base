@@ -1,0 +1,28 @@
+package com.vinicius.sangue.interfaces;
+
+import java.util.List;
+
+import com.vinicius.sangue.bean.Doador;
+import com.vinicius.sangue.filter.DoacaoFilter;
+
+public class DoadorDaoImplements implements Dao<Doador, DoacaoFilter> {
+
+	@Override
+	public void salvar(Doador b) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void excluir(Doador b) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public List<Doador> filtrar(DoacaoFilter f) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
